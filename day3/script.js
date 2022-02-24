@@ -13,3 +13,8 @@ decBtn.addEventListener('click', function() {
     counter--;
     hEle.innerHTML = counter;
 })
+
+
+// query selector 
+// document.querySelector('h1');
+// document.querySelectorAll('h1');
