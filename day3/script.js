@@ -14,6 +14,21 @@ decBtn.addEventListener('click', function() {
     hEle.innerHTML = counter;
 })
 
+const btn2 = document.getElementById('btn2');
+const btn5 = document.getElementById('btn5');
+btn2.addEventListener('click', function() {
+    let value = 15 -2;
+    hEle.innerHTML = value
+})
+
+btn5.addEventListener('click', function() {
+    for(let i = 1; i<= 50; i++) {
+        console.log(i);
+        hEle.innerHTML = i;
+    }
+})
+
+
 
 // query selector 
 // document.querySelector('h1');
