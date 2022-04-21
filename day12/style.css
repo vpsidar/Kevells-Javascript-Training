@@ -1,0 +1,13 @@
+body {
+    background-color: pink;
+}
+.newlayout {
+    display: flex;
+}
+.newlayout div{
+    background: red;
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px;
+    height: 200px;
+}

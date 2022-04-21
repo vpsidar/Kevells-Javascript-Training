@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            height: 100vh;
+            width: 100%;
+            scroll-snap-type: y mandatory;
+            overflow-y: scroll;
+        }
+         .child {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            scroll-snap-align: start;
+            color: white;
+        }
+        .orange {
+            background-color: orangered;
+        }
+        .blue {
+            background-color: aqua;
+        }
+        .green {
+            background-color: green;
+        }
+        .teal {
+            background-color: #2a6355;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="orange child">
+            First
+        </div>
+        <div class="blue child">
+            Second
+        </div>
+        <div class="green child">
+            Third
+        </div>
+        <div>
+            hello
+    
+        </div>
+        <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, nisi sunt saepe et ullam doloremque consequuntur magni fugiat neque tempore inventore porro. Ab cumque voluptate tenetur quo, dignissimos quidem tempora!
+        </div>
+        <div style="height:1000px;background-color: aqua; scroll-snap-align: none;">
+
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
